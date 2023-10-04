@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "instascam/wsgi.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "instascam/wsgi.py"
+      }
+    ]
+  }
