@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'instascam.wsgi.application'
+WSGI_APPLICATION = 'instascam.wsgi.app'
 
 
 # Database
